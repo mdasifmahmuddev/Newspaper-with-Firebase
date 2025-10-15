@@ -13,6 +13,7 @@ import {
 import Root from './layouts/Root/Root.jsx';
 import Home from './components/Home/Home.jsx';
 import Login from './components/Login/Login.jsx';
+import Register from './components/Register/Register.jsx';
 
 
 let router = createBrowserRouter([
@@ -28,7 +29,11 @@ let router = createBrowserRouter([
     {
       path :'/login',
       Component:Login
-    }
+    },
+     {
+        path :'/register',
+        Component:Register
+     }
 
 
 

@@ -13,6 +13,7 @@ const Header = () => {
 
                 <div className='hover:underline'> <NavLink to='/'> Home  </NavLink>   </div>
                 <div className='hover:underline'><NavLink to='/login'>Login </NavLink></div>
+                <div className='hover:underline'> <NavLink to='/register'>Register </NavLink> </div>
 
 
 
