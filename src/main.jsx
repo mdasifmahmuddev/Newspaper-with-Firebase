@@ -14,6 +14,7 @@ import Root from './layouts/Root/Root.jsx';
 import Home from './components/Home/Home.jsx';
 import Login from './components/Login/Login.jsx';
 import Register from './components/Register/Register.jsx';
+import LoginTwo from './components/Login/LoginTwo.jsx';
 
 
 let router = createBrowserRouter([
@@ -28,7 +29,7 @@ let router = createBrowserRouter([
     },
     {
       path :'/login',
-      Component:Login
+      Component:LoginTwo
     },
      {
         path :'/register',
